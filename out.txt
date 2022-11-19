@@ -1,0 +1,15 @@
+             Region, subregion, country or area *  ... Male Life Expectancy at Age 15 (years)
+72     Sustainable Development Goal (SDG) regions  ...                                    ...
+73                             Sub-Saharan Africa  ...                                 42.291
+74                             Sub-Saharan Africa  ...                                 42.372
+75                             Sub-Saharan Africa  ...                                 42.414
+76                             Sub-Saharan Africa  ...                                 42.549
+...                                           ...  ...                                    ...
+20591                   Wallis and Futuna Islands  ...                                 62.885
+20592                   Wallis and Futuna Islands  ...                                 62.265
+20593                   Wallis and Futuna Islands  ...                                  64.35
+20594                   Wallis and Futuna Islands  ...                                 63.498
+20595                   Wallis and Futuna Islands  ...                                 62.845
+
+[20092 rows x 5 columns]
+-------------------------------

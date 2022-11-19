@@ -2,5 +2,16 @@ notes.txt
 - Urban spral: unethical housing (lots of resedential housing)
 
 1) Find which countries are most affected by urban sprawl (population growth)
+    * Find top 25 countries with greatest population + least density
 2) Predict future projections
 3) Find top 10 countries with greatest projected populations
+4) Front end + bs
+
+------DATA BEING USED------
+* Pop growth rate -
+* Net migration rate -
+* Total pop as of 1 July -
+* Year
+* Pop Density as of 1 July -
+
+Natural Change (to get factor of ?increase/to predict)
