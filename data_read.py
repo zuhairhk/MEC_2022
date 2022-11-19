@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 '''
 Column 2 --> Country Name
@@ -107,12 +108,26 @@ growth_data = np.empty(shape=(10, 10))
 
 for i in range(10):
     growth_data[0][i] = sorted_population[i]
-'''
-for i in range(10):
-    for j in range(10):
-        print(sorted_population[i], growth_factors[i])
-        growth_data[i][j] = growth_data[i-1][j] * (growth_factors[i] + 1)
-print(growth_data)
-'''
 
-df = pd.DataFrame([ [] ], index=[2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030])
+sorted_population_plot = []
+sorted_population_plot.append(sorted_population[1])
+
+for i in range(1, 10, 1):
+    sorted_population_plot.append(sorted_population_plot[i-1] * (growth_rate[1] + 1) )
+
+data_dict = {
+    'Year': [2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030],
+    'Population': sorted_population_plot
+}
+
+df = pd.DataFrame(data_dict)
+df.head()
+
+df.plot(kind='line',
+        x = 'Year',
+        y= 'Population',
+        color = 'red')
+
+plt.title("China Projection")
+
+plt.show()
